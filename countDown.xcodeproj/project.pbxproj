@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B66EBBCD18CCFA8C8458A1 /* Pods_countDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CECD62A0B7661CEA1882F61 /* Pods_countDown.framework */; };
+		F524C7B527E9CA8D00CF0294 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524C7B427E9CA8D00CF0294 /* UIImageView.swift */; };
+		F524C7B727E9CAA800CF0294 /* AddTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524C7B627E9CAA800CF0294 /* AddTapGestureRecognizer.swift */; };
+		F524C7B927E9D0B400CF0294 /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524C7B827E9D0B400CF0294 /* GlobalVar.swift */; };
+		F524C7BC27E9D3AE00CF0294 /* NewCountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524C7BB27E9D3AE00CF0294 /* NewCountDownViewController.swift */; };
+		F588A36C27EF27080036F617 /* CountDownData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588A36B27EF27080036F617 /* CountDownData.swift */; };
+		F588A36F27EF2C5F0036F617 /* AddDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588A36E27EF2C5F0036F617 /* AddDataDelegate.swift */; };
+		F588A37127EF47CE0036F617 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588A37027EF47CE0036F617 /* UIView.swift */; };
 		F5AFBF4327E9BAE500DD1719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AFBF4227E9BAE500DD1719 /* AppDelegate.swift */; };
 		F5AFBF4527E9BAE500DD1719 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AFBF4427E9BAE500DD1719 /* SceneDelegate.swift */; };
-		F5AFBF4727E9BAE500DD1719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AFBF4627E9BAE500DD1719 /* ViewController.swift */; };
+		F5AFBF4727E9BAE500DD1719 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AFBF4627E9BAE500DD1719 /* MainViewController.swift */; };
 		F5AFBF4A27E9BAE500DD1719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AFBF4827E9BAE500DD1719 /* Main.storyboard */; };
 		F5AFBF4C27E9BAE800DD1719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AFBF4B27E9BAE800DD1719 /* Assets.xcassets */; };
 		F5AFBF4F27E9BAE800DD1719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AFBF4D27E9BAE800DD1719 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		137C79079591220D9B3C587E /* Pods-countDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-countDown.debug.xcconfig"; path = "Target Support Files/Pods-countDown/Pods-countDown.debug.xcconfig"; sourceTree = "<group>"; };
+		9CECD62A0B7661CEA1882F61 /* Pods_countDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_countDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC6307EAA48ECC935C6746D /* Pods-countDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-countDown.release.xcconfig"; path = "Target Support Files/Pods-countDown/Pods-countDown.release.xcconfig"; sourceTree = "<group>"; };
+		F524C7B427E9CA8D00CF0294 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		F524C7B627E9CAA800CF0294 /* AddTapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		F524C7B827E9D0B400CF0294 /* GlobalVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVar.swift; sourceTree = "<group>"; };
+		F524C7BB27E9D3AE00CF0294 /* NewCountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCountDownViewController.swift; sourceTree = "<group>"; };
+		F588A36B27EF27080036F617 /* CountDownData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownData.swift; sourceTree = "<group>"; };
+		F588A36E27EF2C5F0036F617 /* AddDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataDelegate.swift; sourceTree = "<group>"; };
+		F588A37027EF47CE0036F617 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		F5AFBF3F27E9BAE500DD1719 /* countDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AFBF4227E9BAE500DD1719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5AFBF4427E9BAE500DD1719 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5AFBF4627E9BAE500DD1719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5AFBF4627E9BAE500DD1719 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F5AFBF4927E9BAE500DD1719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5AFBF4B27E9BAE800DD1719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5AFBF4E27E9BAE800DD1719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +49,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B66EBBCD18CCFA8C8458A1 /* Pods_countDown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69092BA2A5CECF6FB016A7DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CECD62A0B7661CEA1882F61 /* Pods_countDown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F06D4B7757F0650808C9236F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				137C79079591220D9B3C587E /* Pods-countDown.debug.xcconfig */,
+				DBC6307EAA48ECC935C6746D /* Pods-countDown.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F524C7B327E9CA7500CF0294 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F524C7B427E9CA8D00CF0294 /* UIImageView.swift */,
+				F524C7B627E9CAA800CF0294 /* AddTapGestureRecognizer.swift */,
+				F524C7B827E9D0B400CF0294 /* GlobalVar.swift */,
+				F588A37027EF47CE0036F617 /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F524C7BA27E9D36000CF0294 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F5AFBF4627E9BAE500DD1719 /* MainViewController.swift */,
+				F524C7BB27E9D3AE00CF0294 /* NewCountDownViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		F588A36A27EF26DB0036F617 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F588A36B27EF27080036F617 /* CountDownData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F588A36D27EF2C310036F617 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F588A36E27EF2C5F0036F617 /* AddDataDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		F5AFBF3627E9BAE500DD1719 = {
 			isa = PBXGroup;
 			children = (
 				F5AFBF4127E9BAE500DD1719 /* countDown */,
 				F5AFBF4027E9BAE500DD1719 /* Products */,
+				F06D4B7757F0650808C9236F /* Pods */,
+				69092BA2A5CECF6FB016A7DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +130,12 @@
 		F5AFBF4127E9BAE500DD1719 /* countDown */ = {
 			isa = PBXGroup;
 			children = (
+				F588A36D27EF2C310036F617 /* Delegate */,
+				F588A36A27EF26DB0036F617 /* Data */,
+				F524C7BA27E9D36000CF0294 /* VC */,
+				F524C7B327E9CA7500CF0294 /* Extension */,
 				F5AFBF4227E9BAE500DD1719 /* AppDelegate.swift */,
 				F5AFBF4427E9BAE500DD1719 /* SceneDelegate.swift */,
-				F5AFBF4627E9BAE500DD1719 /* ViewController.swift */,
 				F5AFBF4827E9BAE500DD1719 /* Main.storyboard */,
 				F5AFBF4B27E9BAE800DD1719 /* Assets.xcassets */,
 				F5AFBF4D27E9BAE800DD1719 /* LaunchScreen.storyboard */,
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5AFBF5327E9BAE800DD1719 /* Build configuration list for PBXNativeTarget "countDown" */;
 			buildPhases = (
+				05BB30AFEEF47E61411520DF /* [CP] Check Pods Manifest.lock */,
 				F5AFBF3B27E9BAE500DD1719 /* Sources */,
 				F5AFBF3C27E9BAE500DD1719 /* Frameworks */,
 				F5AFBF3D27E9BAE500DD1719 /* Resources */,
+				442B8DAFA493E3E98B1F6015 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +212,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05BB30AFEEF47E61411520DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-countDown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		442B8DAFA493E3E98B1F6015 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-countDown/Pods-countDown-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-countDown/Pods-countDown-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-countDown/Pods-countDown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5AFBF3B27E9BAE500DD1719 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5AFBF4727E9BAE500DD1719 /* ViewController.swift in Sources */,
+				F5AFBF4727E9BAE500DD1719 /* MainViewController.swift in Sources */,
+				F524C7B527E9CA8D00CF0294 /* UIImageView.swift in Sources */,
+				F588A37127EF47CE0036F617 /* UIView.swift in Sources */,
+				F524C7BC27E9D3AE00CF0294 /* NewCountDownViewController.swift in Sources */,
 				F5AFBF4327E9BAE500DD1719 /* AppDelegate.swift in Sources */,
+				F524C7B727E9CAA800CF0294 /* AddTapGestureRecognizer.swift in Sources */,
+				F524C7B927E9D0B400CF0294 /* GlobalVar.swift in Sources */,
+				F588A36C27EF27080036F617 /* CountDownData.swift in Sources */,
+				F588A36F27EF2C5F0036F617 /* AddDataDelegate.swift in Sources */,
 				F5AFBF4527E9BAE500DD1719 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +412,7 @@
 		};
 		F5AFBF5427E9BAE800DD1719 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137C79079591220D9B3C587E /* Pods-countDown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +441,7 @@
 		};
 		F5AFBF5527E9BAE800DD1719 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC6307EAA48ECC935C6746D /* Pods-countDown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
